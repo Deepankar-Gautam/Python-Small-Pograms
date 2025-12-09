@@ -181,42 +181,8 @@ while True:
 
 
 
-# user = input ('Is it a palindrome? \n')
+user = input ('Is it a palindrome? \n')
 
-# for i in user:
-#     if i == -1:
-#         print ("Yes it's  a palindrome")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+for i in user:
+    if i == -1:
+        print ("Yes it's  a palindrome")
