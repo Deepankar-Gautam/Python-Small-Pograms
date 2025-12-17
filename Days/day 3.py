@@ -1,29 +1,4 @@
-# Rollercoster example
 
-print ("Welcome to the Rollercoster Ride")
-height = float( input ("How much tall are you?\n"))
-ticket = 0
-
-if height >= 120:
-    print ("You can ride the Rollercoster")
-    age = int( input ("What is your age?\n"))
-    if age < 12:
-        print (f"You have to pay {ticket + 7}$\n")
-    elif age < 18:
-        print (f"You have to pay {ticket + 10}$\n")
-    elif age >= 45 and age <= 55:
-        print (f"Due to mid life crisis, you have to pay {ticket + 0}$\n")
-    else:
-        print (f"You have to pay {ticket + 12}$\n")
-
-    photo = input ("Do you want a photo?\n")
-    if photo == "yes":
-        print (f"Then your total bill is {ticket + 3}$")
-    else:
-        print (f"Then your total bill is {ticket}$")
-
-else:
-    print ("You are not eligible to ride on the Rollercoster")
 
 
 ##################################################################
