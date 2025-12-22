@@ -24,15 +24,15 @@ spe = int(input("How many Special Characters do you want in your Password?\n"))
 
 password = ""
 
-for ch in range(let):
+for _ in range(let):
     let_pass = random.choice(Letters)
     password += let_pass
 
-for ch in range (num):
+for _ in range (num):
     num_pass = random.choice(Numbers)
     password += num_pass
 
-for ch in range (spe):
+for _ in range (spe):
     spe_pass = random.choice(Special_characters)
     password += spe_pass
     
@@ -43,16 +43,16 @@ print ("Your Generated password is : ", password)
 password_list = []
 password = ""
 
-for ch in range (let):
+for _ in range (let):
     let_pass = random.choice(Letters)
     password_list.append(let_pass)
 
    
-for ch in range (num):
+for _ in range (num):
     num_pass = random.choice(Numbers)
     password_list.append(num_pass)
 
-for ch in range (spe):
+for _ in range (spe):
     spe_pass = random.choice(Special_characters)
     password_list.append(spe_pass)
 
